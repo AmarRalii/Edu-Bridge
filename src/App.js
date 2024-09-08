@@ -1,7 +1,8 @@
 import React from 'react';
 import {
-  createBrowserRouter,
+  
   RouterProvider,
+  createHashRouter
 } from "react-router-dom";
 import Layout from './Components/Layout/Layout';
 import Home from './Components/Home/Home';
@@ -14,8 +15,9 @@ import Courses from './Components/Courses/Courses';
 
 
 export default function App() {
+  
 
-  const routes = createBrowserRouter([
+  const routes = createHashRouter([
     {
       path:'/',element:<Layout></Layout>,
       children:[
