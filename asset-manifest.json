@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Edu-Bridge/static/css/main.183506c2.css",
-    "main.js": "/Edu-Bridge/static/js/main.4339f199.js",
+    "main.js": "/Edu-Bridge/static/js/main.e72d6ce9.js",
     "static/js/453.c6944db6.chunk.js": "/Edu-Bridge/static/js/453.c6944db6.chunk.js",
     "static/media/fa-solid-900.ttf": "/Edu-Bridge/static/media/fa-solid-900.07ed6d5fa32c1d54af0f.ttf",
     "static/media/fa-brands-400.ttf": "/Edu-Bridge/static/media/fa-brands-400.0ff70dcbf135d859ebf3.ttf",
@@ -23,11 +23,11 @@
     "static/media/fa-v4compatibility.woff2": "/Edu-Bridge/static/media/fa-v4compatibility.6cfec8414be20e2c3426.woff2",
     "index.html": "/Edu-Bridge/index.html",
     "main.183506c2.css.map": "/Edu-Bridge/static/css/main.183506c2.css.map",
-    "main.4339f199.js.map": "/Edu-Bridge/static/js/main.4339f199.js.map",
+    "main.e72d6ce9.js.map": "/Edu-Bridge/static/js/main.e72d6ce9.js.map",
     "453.c6944db6.chunk.js.map": "/Edu-Bridge/static/js/453.c6944db6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.183506c2.css",
-    "static/js/main.4339f199.js"
+    "static/js/main.e72d6ce9.js"
   ]
 }
