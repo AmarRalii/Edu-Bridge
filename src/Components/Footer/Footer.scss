@@ -1,0 +1,306 @@
+@import '../../helpers/Style';
+
+
+.footer{
+    height: 50vh;
+    width: 100%;
+    margin-top: 70px;
+    background-color: #ffffff;
+    .container{
+        display: flex;
+        justify-content: space-between;
+        .footer-caption{
+            width: 34%;
+            
+            .footer-logo{
+                display: flex;
+                align-items: center;
+                margin-bottom: 20px;
+                img{
+                    width: 107.51px;
+                    height: 88.15px;
+                }
+                p{
+                    font: {
+                        family: "Calistoga", serif;
+                        size: 24px;
+                        weight: 600;
+                    }
+                    line-height: 31.2px;
+                    color: $green-color;
+                    position: relative;
+                    span{
+                        font: {
+                            size: 11.34px;
+                            weight: 600;
+                        }
+                    line-height: 18.16px;
+                    color: $main-color;
+                    position: absolute;
+                    bottom: -15px;
+                    left: 0;
+                    }
+                }
+            }
+            h4{
+                color: $light-color;
+                margin-bottom: 20px;
+                font: {
+                    size:25px;
+                    weight:600;    
+                }
+            }
+            .links{
+                width: 150px;
+                display: flex;
+                justify-content: space-between;
+                a{
+                    color: $light-color;
+                    text-decoration: none;
+                    i{
+                        font-size: 22px;
+                    }
+                }
+            }
+        }
+        .footer-links{
+            width: 55%;
+            display: flex;
+            justify-content: space-between;
+            h5{
+                font: {
+                    family: "Inter", sans-serif;
+                    size: 20px;
+                    weight:400
+                }
+            }
+            p{
+                font: {
+                    family: "Inter", sans-serif;
+                    size: 16px;
+                    weight:400
+                }
+                color: $light-color;
+                cursor: pointer;
+            }
+        }
+
+    }
+    h2{
+        border-top: 1px solid #BFC6CC;
+        text-align: center;
+        font: {
+            size:16px;
+        }
+        padding-top: 15px;
+        color: $light-color;
+    }
+}
+
+@media(max-width:992px){
+    .footer{
+        height: auto;
+        .container{
+            width: 90% ;
+            .footer-caption{
+                width: 30%;
+                .footer-logo{
+                    margin-bottom: 20px;
+                    img{
+                        width: 97.51px;
+                        height: 78.15px;
+                    }
+                    p{
+                        font: {
+                            size: 22px;
+                        }
+                        span{
+                            font: {
+                                size: 11.34px;
+                            }
+                        line-height: 15.16px;
+                        bottom: -30px;
+                        }
+                    }
+                }
+                h4{
+                    margin-bottom: 20px;
+                    font: {
+                        size:20px;
+                        weight:400;    
+                    }
+                }
+                .links{
+                    width: 150px;
+                    margin-bottom: 20px;
+                    a{
+                        i{
+                            font-size: 20px;
+                        }
+                    }
+                }
+            }
+            .footer-links{
+                width: 55%;
+                h5{
+                    font: {
+                        size: 18px;
+                        weight:500
+                    }
+                }
+                p{
+                    font: {
+                        size: 14px;
+                    }
+                }
+            }
+    
+        }
+        h2{
+            font: {
+                size:16px;
+            }
+            padding: 10px;
+        }
+    }
+}
+@media(max-width:768px){
+    .footer{
+        
+        .container{
+            width: 100% !important;
+            .footer-caption{
+                width: 50%;
+                .footer-logo{
+                    margin-bottom: 20px;
+                    img{
+                        width: 97.51px;
+                        height: 78.15px;
+                    }
+                    p{
+                        font: {
+                            size: 20px;
+                        }
+                        span{
+                            font: {
+                                size: 10.34px;
+                            }
+                        line-height: 15.16px;
+                        bottom: -30px;
+                        }
+                    }
+                }
+                h4{
+                    margin-bottom: 20px;
+                    font: {
+                        size:18px;
+                        weight:400;    
+                    }
+                }
+                .links{
+                    width: 150px;
+                    margin-bottom: 20px;
+                    a{
+                        i{
+                            font-size: 20px;
+                        }
+                    }
+                }
+            }
+            .footer-links{
+                width: 50%;
+                h5{
+                    font: {
+                        size: 16px;
+                        weight:500
+                    }
+                }
+                p{
+                    font: {
+                        size: 14px;
+                    }
+                }
+            }
+    
+        }
+        h2{
+            font: {
+                size:16px;
+            }
+            padding: 10px;
+        }
+    }
+}
+@media(max-width:520px){
+    .footer{
+        .container{
+            display: block;
+            .footer-caption{
+                width: 90%;
+                text-align: center;
+                .footer-logo{
+                    margin-bottom: 20px;
+                    justify-content: center;
+                    img{
+                        width: 90.51px;
+                        height: 78.15px;
+                    }
+                    p{
+                        font: {
+                            size: 20px;
+                        }
+                        span{
+                            font: {
+                                size: 10.34px;
+                            }
+                        line-height: 15.16px;
+                        bottom: -30px;
+                        }
+                    }
+                }
+                h4{
+                    margin-bottom: 20px;
+                    font: {
+                        size:18px;
+                        weight:400;    
+                    }
+                }
+                .links{
+                    width: 150px;
+                    margin-bottom: 20px;
+                    margin-left: auto;
+                    margin-right: auto;
+                    a{
+                        i{
+                            font-size: 20px;
+                        }
+                    }
+                }
+            }
+            .footer-links{
+                width: 80%;
+                text-align: center;
+                margin-left: auto;
+                margin-right: auto;
+                h5{
+                    font: {
+                        size: 15px;
+                        weight:500
+                    }
+                }
+                p{
+                    font: {
+                        size: 13px;
+                    }
+                }
+            }
+    
+        }
+        h2{
+            font: {
+                size:15px;
+            }
+            padding: 10px;
+        }
+    }
+}

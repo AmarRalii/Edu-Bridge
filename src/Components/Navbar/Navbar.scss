@@ -1,0 +1,93 @@
+@import '../../helpers/Style.scss';
+
+.navbar{
+    @import url('https://fonts.googleapis.com/css2?family=Calistoga&display=swap');
+    background-color: #fff;
+    .container{
+        .navbar-brand{
+            display: flex;
+            align-items: center;
+            img{
+                width: 107.51px;
+                height: 88.15px;
+            }
+            p{
+                font: {
+                    family: "Calistoga", serif;
+                    size: 24px;
+                    weight: 600;
+                }
+                line-height: 31.2px;
+                color: $green-color;
+                position: relative;
+                span{
+                    font: {
+                        size: 11.34px;
+                        weight: 600;
+                    }
+                line-height: 18.16px;
+                color: $main-color;
+                position: absolute;
+                bottom: -15px;
+                left: 0;
+                }
+            }
+        }
+        .navbar-collapse{
+            .navbar-nav{
+                li{
+                   a{
+                    font-size: 22px;
+                    font-weight: 400;
+                    line-height: 38.73px;
+                    color: #232323;
+                   } 
+                }
+            }
+            .buttons-container{
+                width: 270px;
+                height: 50px;
+                display: flex;
+                align-items: center;
+                justify-content: space-around;
+                button{
+                    width: 110px;
+                    height: 46px;
+                    border-radius: 25px 10px;
+                    border: 3px solid $main-color;
+                    background-color: transparent;
+                    transition: all .4s;
+                    a{
+                        color: #E56031 ;
+                        text-decoration: none;
+                        font-size: 26px;
+                        transition: all .4s;
+                    }
+                    &:hover{
+                        background-color: #E56031;
+                    a{
+                        color: #ffffff ;
+                        
+                    }
+                    }
+                }
+                
+                :nth-child(2){
+                    background-color: $main-color;
+                    transition: all .4s;
+                    a{
+                        color: #fff ;
+                    }
+
+                    &:hover{
+                        background-color: #ffffff;
+                        a{
+                            color: $main-color;
+                        }
+                    }
+                    
+                }
+            }
+        }
+    }
+}

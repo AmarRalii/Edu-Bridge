@@ -1,0 +1,864 @@
+@import '../../helpers/_Style';
+
+
+.home{
+    .container{
+    width: 90% !important;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+      .home-caption{
+        width: 50%;
+        h1{
+            font: {
+                family: "Calistoga", serif;
+                weight: 400;
+                size: 90px;
+            }
+            color: #5b2512;
+        }
+        h4{
+            font: {
+                family: "Baloo 2", sans-serif;
+                weight: 600;
+                size: 48px;
+            }
+            color: $main-color;
+        }
+        p{
+            font: {
+                family: "Poppins", sans-serif;
+                weight: 400;
+                size: 31px;
+            }
+            color: rgb(0, 0, 0);
+            span{
+                color: $main-color;
+            }
+        }
+        .home-buttons-container{
+            width: 85%;
+            height: 77px;
+            display: flex;
+            justify-content: space-between;
+            button{
+                width: 200px;
+                height: 66px;
+                border-radius: 25px 10px;
+                border: 3px solid $main-color;
+                background-color: $main-color;
+                transition: all .4s;
+                a{
+                    color: #ffffff ;
+                    text-decoration: none;
+                    font-size: 26px;
+                    font-weight: 600;
+                }
+                &:hover{
+                    background-color: transparent;
+                    a{
+                        color: $main-color;
+                    }
+                }
+            }
+            
+            :nth-child(2){
+
+                background-color: transparent;
+                a{
+                    color: $main-color ;
+                }
+                &:hover{
+                    background-color: $main-color;
+                    a{
+                        color: #fff;
+                    }
+                }
+            }
+            
+        }
+    }  
+    }
+    
+    
+}
+
+.top-courses{
+    margin: 100px 0;
+    height: 150vh;
+    
+    h4{
+        text-align: center;
+        margin: 40px 0;
+        font: {
+            family: "Poppins", system-ui;
+            weight:600;
+            size:38px
+        }
+    }
+    .courses-container{
+        display: flex;
+        justify-content: space-between;
+        position: relative;
+        .card{
+            width: 31%;
+            border: 0;
+            h2{
+                text-align: center;
+                font: {
+                    family: "Poppins", system-ui;
+                    weight:400;
+                    size:38px
+                }
+            }
+            img{
+                width: 100%;
+                height: 346.46px;
+                border-radius: 30px;
+                border: 1px;
+                margin: 20px 0;
+                
+            }
+            p{
+                font: {
+                    family: "Poppins", system-ui;
+                    weight:400;
+                    size:18px
+                }
+                color: #232323;
+                position: relative;
+                span{
+                    position: absolute;
+                    right: 35px;
+                    bottom: -2px;
+                    color: $main-color;
+                }
+            }
+            .icon{
+                display: flex;
+                align-items: center;
+                
+                img{
+                    width: 52px;
+                    height: 52px;
+                    margin-right: 1em;
+                }
+                h5{
+                    font: {
+                        family: "Poppins", system-ui;
+                        weight:600;
+                        size:18px
+                    }
+                    color: #232323;
+                }
+            }
+        }
+        .secound-card{
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+            top: 22%;
+        }
+        .media-card{
+            display: none;
+        }
+    }
+}
+
+.education-section{
+    margin: 100px 0;
+    h4{
+        text-align: center;
+        margin: 50px 0;
+        font: {
+            family: "Poppins", system-ui;
+            weight:600;
+            size:38px
+        }
+    }
+    .education-paragraph{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin-bottom: 50px;
+        img{
+            width:260px;
+            height: 226px;
+            border-radius: 30px;
+        }
+        p{
+            width: 69%;
+            font: {
+                family: "Poppins", system-ui;
+                weight:400;
+                size:20px
+            }
+        }
+    }
+    ul{
+        list-style-type:none ;
+     
+        padding: 0;
+        font: {
+            family: "Poppins", system-ui;
+            weight:400;
+            size:20px
+        }
+        li{
+            font: {
+                family: "Poppins", system-ui;
+                weight:400;
+                size:18px
+            }
+        }
+    }
+    h6{
+    margin-top: 40px;
+     font: {
+            family: "Poppins", system-ui;
+            weight:600;
+            size:20px
+        }
+    }
+}
+
+.testmoniols{
+    h4{
+        text-align: center;
+        margin: 40px 0;
+        font: {
+            family: "Poppins", system-ui;
+            weight:600;
+            size:38px
+        }
+    }
+    .testmoniol-container{
+        display: flex;
+        align-items: end;
+        justify-content: center;
+        .testmoniol-caption{
+            width: 550px;
+            height: 210px;
+            background-color: #E67E22;
+            border-radius: 25px 10px;
+            .container{
+                width: 80% ;
+                h3{
+                    font: {
+                        family: "Poppins", system-ui;
+                        weight:500;
+                        size:26px
+                    }
+                    margin-top: 15px;
+                }
+                p{
+                    font: {
+                        family: "Poppins", system-ui;
+                        weight:500;
+                        size:16px
+                    }
+                    
+                }
+                button{
+                    width: 200px;
+                    height: 66px;
+                    border-radius: 25px 10px;
+                    border: 3px solid #E67E22;
+                    background-color: #fff;
+                    transition: all .4s;
+                    a{
+                        color: $main-color ;
+                        text-decoration: none;
+                        font-size: 26px;
+                        font-weight: 600;
+                    }
+                    &:hover{
+                        background-color: #E67E22 ;
+                        a{
+                            color: #fff;
+                        }
+                    }
+                    margin-left: 250px;
+                }
+            }
+        }
+        .testmoniol-img{
+            position: relative;
+            img{
+                width: 472.88px;
+                height:315px;
+            }
+            .background-img-color{
+                width: 55%;
+                height: 69%;
+                background-color: #ff8b00;
+                position: absolute;
+                right: 0;
+                bottom: 0;
+                z-index: -1;
+                border-radius: 25px 10px;
+            }
+        }
+    }
+}
+
+@media (max-width:992px) {
+    .home{
+        display: flex;
+        justify-content: space-between;
+        .container{
+             .home-caption{
+            width: 50%;
+            h1{
+                font: {
+                    size: 50px;
+                }
+            }
+            h4{
+                font: {
+                    size: 28px;
+                }
+            }
+            p{
+                font: {
+                    size: 19px;
+                }
+            }
+            .home-buttons-container{
+               width: 100%;
+                button{
+                    width: 150px;
+                    height: 56px;
+                    margin-right: 10px;
+                    a{
+                        font-size: 22px;
+                    }
+                }
+            }
+        }
+        .home-image{
+            width: 45%;
+            img{
+                width: 80%;
+            }
+        }
+        }
+
+       
+        
+    }
+    .top-courses{
+        height: auto;
+        h4{
+            font: {
+                size:35px
+            }
+        }
+        .courses-container{
+            justify-content: space-between;
+            flex-wrap: wrap;
+            .card{
+                width: 40%;
+                h2{
+                    text-align: center;
+                    font: {
+                        size:28px
+                    }
+                }
+                img{
+                    height: auto;
+                }
+                p{
+                    font: {
+                        size:16px;
+                        weight:500;
+                    }
+                    span{
+                        bottom: -25px;
+                    }
+                }
+                .icon{
+                    
+                    img{
+                        width: 42px;
+                        height: 42px;
+                    }
+                    h5{
+                        font: {
+                            weight:500;
+                            size:16px
+                        }
+
+                    }
+                }
+            }
+            .secound-card{
+                display: none;
+            }
+            .media-card{
+                display: block;
+            }
+        }
+    }
+    .education-section{
+        h4{
+            margin: 30px 0;
+            font: {
+                weight:600;
+                size:35px
+            }
+        }
+        .education-paragraph{
+            margin-bottom: 50px;
+            img{
+                width:200px;
+                height: 190px;
+            }
+            p{
+                width: 59%;
+                font: {
+                    size:16px
+                }
+            }
+        }
+        ul{
+            font: {
+                size:18px
+            }
+            li{
+                font: {
+                    size:16px
+                }
+                padding: 8px 0;
+            }
+        }
+        h6{
+        margin-top: 30px;
+         font: {
+                size:18px
+            }
+        }
+    }
+    .testmoniols{
+        h4{
+            font: {
+                size:35px
+            }
+        }
+        .testmoniol-container{
+            width: 90%;
+            margin-left: auto;
+            margin-right: auto;
+            .testmoniol-caption{
+                width: 50%;
+                height: 200px;
+                background-color: #E67E22;
+                .container{
+                    width:100% ;
+                    h3{
+                        font: {
+                            size:24px
+                        }
+                        margin-top: 15px;
+                    }
+                    p{
+                        font: {
+                            size:15px
+                        }
+                    }
+                    button{
+                        width: 130px;
+                        height: 56px;
+                        a{
+                            font-size: 20px;
+                        }
+                        margin-left: 200px;
+                    }
+                }
+            }
+            .testmoniol-img{
+                position: relative;
+                width: 50%;
+                img{
+                    width: 100%;
+                    height: 100%;
+                }
+                .background-img-color{
+                    width: 55%;
+                    height: 69%;
+                    right: 0;
+                    bottom: 0;
+                }
+            }
+        }
+    }
+}
+@media (max-width:768px) {
+    .home{
+        display: flex;
+        justify-content: space-between;
+        .container{
+            width: 100% !important;
+            .home-caption{
+            width: 50%;
+            h1{
+                font: {
+                    size: 40px;
+                }
+            }
+            h4{
+                font: {
+                    size: 22px;
+                }
+            }
+            p{
+                font: {
+                    size: 16px;
+                }
+            }
+            .home-buttons-container{
+               width: 100%;
+                button{
+                    width: 180px ;
+                    height: 56px;
+                    margin-right: 10px;
+                    
+                    a{
+                        font-size: 16px;
+                    }
+                }
+            }
+        }
+        .home-image{
+            width: 50%;
+            img{
+                width: 100%;
+            }
+        }
+        }
+       
+        
+    }
+    .top-courses{
+        height: auto;
+        h4{
+            font: {
+                size:32px
+            }
+        }
+        .courses-container{
+            justify-content: space-between;
+            flex-wrap: wrap;
+            .card{
+                width: 70%;
+                margin-left: auto;
+                margin-right: auto;
+                h2{
+                    text-align: center;
+                    font: {
+                        size:25px;
+                        weight:500;
+                    }
+                }
+                img{
+                    height: auto;
+                }
+                p{
+                    font: {
+                        size:16px
+                    }
+                    span{
+                        bottom: -25px;
+                    }
+                }
+                .icon{
+                    
+                    img{
+                        width: 42px;
+                        height: 42px;
+                    }
+                    h5{
+                        font: {
+                            weight:500;
+                            size:16px
+                        }
+
+                    }
+                }
+            }
+        }
+    }
+    .education-section{
+        h4{
+            margin: 20px 0;
+            font: {
+                weight:500;
+                size:30px
+            }
+        }
+        .education-paragraph{
+            margin-bottom: 50px;
+            img{
+                width:200px;
+                height: 190px;
+            }
+            p{
+                width: 58%;
+                font: {
+                    size:14px
+                }
+            }
+        }
+        ul{
+            font: {
+                size:16px
+            }
+            li{
+                font: {
+                    size:14px
+                }
+                padding: 8px 0;
+            }
+        }
+        h6{
+        margin-top: 30px;
+         font: {
+                size:16px;
+                weight:500;
+            }
+        }
+    }
+    .testmoniols{
+        h4{
+            font: {
+                size:30px
+            }
+        }
+        
+        .testmoniol-container{
+            width: 100%;
+            margin-top: 50px;
+            .testmoniol-caption{
+                height: 220px;
+                .container{
+                    h3{
+                        font: {
+                            size:22px
+                        }
+                        margin-top: 15px;
+                    }
+                    p{
+                        font: {
+                            size:13px
+                        }
+                    }
+                    button{
+                        width: 130px;
+                        height: 56px;
+                        a{
+                            font-size: 18px;
+                        }
+                        margin-left: 100px;
+                    }
+                }
+            }
+            .testmoniol-img{
+                width: 65%;
+                img{
+                    width: 100%;
+                    height: auto;
+                }
+
+            }
+        }
+    }
+}
+@media (max-width:520px) {
+    .home{
+        display: flex;
+        justify-content: space-between;
+        .container{
+            width: 100% !important;
+            .home-caption{
+            width: 60%;
+            h1{
+                font: {
+                    size: 36px;
+                }
+            }
+            h4{
+                font: {
+                    size: 20px;
+                }
+            }
+            p{
+                font: {
+                    size: 14px;
+                }
+            }
+            .home-buttons-container{
+               width: 100%;
+                button{
+                    width: 160px ;
+                    height: 46px;
+                    margin-right: 10px;
+                    
+                    a{
+                        font-size: 14px;
+                    }
+                }
+            }
+        }
+        .home-image{
+            width: 50%;
+            img{
+                width: 100%;
+            }
+        }
+        }
+    }
+    .top-courses{
+        height: auto;
+        h4{
+            font: {
+                size:32px
+            }
+        }
+        .courses-container{
+            justify-content: space-between;
+            flex-wrap: wrap;
+            .card{
+                width: 70%;
+                margin-left: auto;
+                margin-right: auto;
+                h2{
+                    text-align: center;
+                    font: {
+                        size:25px;
+                        weight:500;
+                    }
+                }
+                img{
+                    height: auto;
+                }
+                p{
+                    font: {
+                        size:16px
+                    }
+                    span{
+                        bottom: -25px;
+                    }
+                }
+                .icon{
+                    
+                    img{
+                        width: 42px;
+                        height: 42px;
+                    }
+                    h5{
+                        font: {
+                            weight:500;
+                            size:16px
+                        }
+
+                    }
+                }
+            }
+        }
+    }
+    .education-section{
+        h4{
+            margin: 20px 0;
+            font: {
+                weight:500;
+                size:28px
+            }
+        }
+        .education-paragraph{
+            margin-bottom: 50px;
+            display: block;
+            text-align: center;
+            img{
+                width:50%;
+                height: 100%;
+                margin-left: 50%;
+                transform: translateX(-50%);
+            }
+            p{
+                margin: 10px auto;
+                width: 70%;
+                font: {
+                    size:14px
+                }
+            }
+        }
+        ul{
+            font: {
+                size:16px;
+                weight:500
+            }
+            li{
+                font: {
+                    size:14px
+                }
+                padding: 8px 0;
+            }
+        }
+        h6{
+        margin-top: 30px;
+         font: {
+                size:16px;
+                weight:500;
+            }
+        }
+    }
+    .testmoniols{
+        h4{
+            font: {
+                size:30px
+            }
+        }
+        
+        .testmoniol-container{
+            width: 100%;
+            margin-top: 50px;
+            display: block;
+            .testmoniol-caption{
+                height: auto;
+                margin-left: auto;
+                margin-right: auto;
+                width: 80%;
+                .container{
+                padding: 20px;
+                    h3{
+                        font: {
+                            size:22px
+                        }
+                        margin-top: 15px;
+                    }
+                    p{
+                        font: {
+                            size:13px
+                        }
+                    }
+                    button{
+                        width: 120px;
+                        height: 46px;
+                        a{
+                            font-size: 16px;
+                        }
+                        margin-left: auto;
+                    }
+                }
+            }
+            .testmoniol-img{
+                width: 70%;
+                img{
+                    width: 100%;
+                    height: auto;
+                }
+
+            }
+        }
+    }
+}

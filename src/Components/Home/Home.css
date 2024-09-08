@@ -1,0 +1,692 @@
+@import url("https://fonts.googleapis.com/css2?family=Calistoga&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Baloo+2:wght@400..800&family=Calistoga&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Baloo+2:wght@400..800&family=Calistoga&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+.home .container {
+  width: 90% !important;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.home .container .home-caption {
+  width: 50%;
+}
+.home .container .home-caption h1 {
+  font-family: "Calistoga", serif;
+  font-weight: 400;
+  font-size: 90px;
+  color: #5b2512;
+}
+.home .container .home-caption h4 {
+  font-family: "Baloo 2", sans-serif;
+  font-weight: 600;
+  font-size: 48px;
+  color: #E56031;
+}
+.home .container .home-caption p {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 31px;
+  color: rgb(0, 0, 0);
+}
+.home .container .home-caption p span {
+  color: #E56031;
+}
+.home .container .home-caption .home-buttons-container {
+  width: 85%;
+  height: 77px;
+  display: flex;
+  justify-content: space-between;
+}
+.home .container .home-caption .home-buttons-container button {
+  width: 200px;
+  height: 66px;
+  border-radius: 25px 10px;
+  border: 3px solid #E56031;
+  background-color: #E56031;
+  transition: all 0.4s;
+}
+.home .container .home-caption .home-buttons-container button a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 26px;
+  font-weight: 600;
+}
+.home .container .home-caption .home-buttons-container button:hover {
+  background-color: transparent;
+}
+.home .container .home-caption .home-buttons-container button:hover a {
+  color: #E56031;
+}
+.home .container .home-caption .home-buttons-container :nth-child(2) {
+  background-color: transparent;
+}
+.home .container .home-caption .home-buttons-container :nth-child(2) a {
+  color: #E56031;
+}
+.home .container .home-caption .home-buttons-container :nth-child(2):hover {
+  background-color: #E56031;
+}
+.home .container .home-caption .home-buttons-container :nth-child(2):hover a {
+  color: #fff;
+}
+
+.top-courses {
+  margin: 100px 0;
+  height: 150vh;
+}
+.top-courses h4 {
+  text-align: center;
+  margin: 40px 0;
+  font-family: "Poppins", system-ui;
+  font-weight: 600;
+  font-size: 38px;
+}
+.top-courses .courses-container {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+.top-courses .courses-container .card {
+  width: 31%;
+  border: 0;
+}
+.top-courses .courses-container .card h2 {
+  text-align: center;
+  font-family: "Poppins", system-ui;
+  font-weight: 400;
+  font-size: 38px;
+}
+.top-courses .courses-container .card img {
+  width: 100%;
+  height: 346.46px;
+  border-radius: 30px;
+  border: 1px;
+  margin: 20px 0;
+}
+.top-courses .courses-container .card p {
+  font-family: "Poppins", system-ui;
+  font-weight: 400;
+  font-size: 18px;
+  color: #232323;
+  position: relative;
+}
+.top-courses .courses-container .card p span {
+  position: absolute;
+  right: 35px;
+  bottom: -2px;
+  color: #E56031;
+}
+.top-courses .courses-container .card .icon {
+  display: flex;
+  align-items: center;
+}
+.top-courses .courses-container .card .icon img {
+  width: 52px;
+  height: 52px;
+  margin-right: 1em;
+}
+.top-courses .courses-container .card .icon h5 {
+  font-family: "Poppins", system-ui;
+  font-weight: 600;
+  font-size: 18px;
+  color: #232323;
+}
+.top-courses .courses-container .secound-card {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 22%;
+}
+.top-courses .courses-container .media-card {
+  display: none;
+}
+
+.education-section {
+  margin: 100px 0;
+}
+.education-section h4 {
+  text-align: center;
+  margin: 50px 0;
+  font-family: "Poppins", system-ui;
+  font-weight: 600;
+  font-size: 38px;
+}
+.education-section .education-paragraph {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 50px;
+}
+.education-section .education-paragraph img {
+  width: 260px;
+  height: 226px;
+  border-radius: 30px;
+}
+.education-section .education-paragraph p {
+  width: 69%;
+  font-family: "Poppins", system-ui;
+  font-weight: 400;
+  font-size: 20px;
+}
+.education-section ul {
+  list-style-type: none;
+  padding: 0;
+  font-family: "Poppins", system-ui;
+  font-weight: 400;
+  font-size: 20px;
+}
+.education-section ul li {
+  font-family: "Poppins", system-ui;
+  font-weight: 400;
+  font-size: 18px;
+}
+.education-section h6 {
+  margin-top: 40px;
+  font-family: "Poppins", system-ui;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.testmoniols h4 {
+  text-align: center;
+  margin: 40px 0;
+  font-family: "Poppins", system-ui;
+  font-weight: 600;
+  font-size: 38px;
+}
+.testmoniols .testmoniol-container {
+  display: flex;
+  align-items: end;
+  justify-content: center;
+}
+.testmoniols .testmoniol-container .testmoniol-caption {
+  width: 550px;
+  height: 210px;
+  background-color: #E67E22;
+  border-radius: 25px 10px;
+}
+.testmoniols .testmoniol-container .testmoniol-caption .container {
+  width: 80%;
+}
+.testmoniols .testmoniol-container .testmoniol-caption .container h3 {
+  font-family: "Poppins", system-ui;
+  font-weight: 500;
+  font-size: 26px;
+  margin-top: 15px;
+}
+.testmoniols .testmoniol-container .testmoniol-caption .container p {
+  font-family: "Poppins", system-ui;
+  font-weight: 500;
+  font-size: 16px;
+}
+.testmoniols .testmoniol-container .testmoniol-caption .container button {
+  width: 200px;
+  height: 66px;
+  border-radius: 25px 10px;
+  border: 3px solid #E67E22;
+  background-color: #fff;
+  transition: all 0.4s;
+  margin-left: 250px;
+}
+.testmoniols .testmoniol-container .testmoniol-caption .container button a {
+  color: #E56031;
+  text-decoration: none;
+  font-size: 26px;
+  font-weight: 600;
+}
+.testmoniols .testmoniol-container .testmoniol-caption .container button:hover {
+  background-color: #E67E22;
+}
+.testmoniols .testmoniol-container .testmoniol-caption .container button:hover a {
+  color: #fff;
+}
+.testmoniols .testmoniol-container .testmoniol-img {
+  position: relative;
+}
+.testmoniols .testmoniol-container .testmoniol-img img {
+  width: 472.88px;
+  height: 315px;
+}
+.testmoniols .testmoniol-container .testmoniol-img .background-img-color {
+  width: 55%;
+  height: 69%;
+  background-color: #ff8b00;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+  border-radius: 25px 10px;
+}
+
+@media (max-width: 992px) {
+  .home {
+    display: flex;
+    justify-content: space-between;
+  }
+  .home .container .home-caption {
+    width: 50%;
+  }
+  .home .container .home-caption h1 {
+    font-size: 50px;
+  }
+  .home .container .home-caption h4 {
+    font-size: 28px;
+  }
+  .home .container .home-caption p {
+    font-size: 19px;
+  }
+  .home .container .home-caption .home-buttons-container {
+    width: 100%;
+  }
+  .home .container .home-caption .home-buttons-container button {
+    width: 150px;
+    height: 56px;
+    margin-right: 10px;
+  }
+  .home .container .home-caption .home-buttons-container button a {
+    font-size: 22px;
+  }
+  .home .container .home-image {
+    width: 45%;
+  }
+  .home .container .home-image img {
+    width: 80%;
+  }
+  .top-courses {
+    height: auto;
+  }
+  .top-courses h4 {
+    font-size: 35px;
+  }
+  .top-courses .courses-container {
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  .top-courses .courses-container .card {
+    width: 40%;
+  }
+  .top-courses .courses-container .card h2 {
+    text-align: center;
+    font-size: 28px;
+  }
+  .top-courses .courses-container .card img {
+    height: auto;
+  }
+  .top-courses .courses-container .card p {
+    font-size: 16px;
+    font-weight: 500;
+  }
+  .top-courses .courses-container .card p span {
+    bottom: -25px;
+  }
+  .top-courses .courses-container .card .icon img {
+    width: 42px;
+    height: 42px;
+  }
+  .top-courses .courses-container .card .icon h5 {
+    font-weight: 500;
+    font-size: 16px;
+  }
+  .top-courses .courses-container .secound-card {
+    display: none;
+  }
+  .top-courses .courses-container .media-card {
+    display: block;
+  }
+  .education-section h4 {
+    margin: 30px 0;
+    font-weight: 600;
+    font-size: 35px;
+  }
+  .education-section .education-paragraph {
+    margin-bottom: 50px;
+  }
+  .education-section .education-paragraph img {
+    width: 200px;
+    height: 190px;
+  }
+  .education-section .education-paragraph p {
+    width: 59%;
+    font-size: 16px;
+  }
+  .education-section ul {
+    font-size: 18px;
+  }
+  .education-section ul li {
+    font-size: 16px;
+    padding: 8px 0;
+  }
+  .education-section h6 {
+    margin-top: 30px;
+    font-size: 18px;
+  }
+  .testmoniols h4 {
+    font-size: 35px;
+  }
+  .testmoniols .testmoniol-container {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .testmoniols .testmoniol-container .testmoniol-caption {
+    width: 50%;
+    height: 200px;
+    background-color: #E67E22;
+  }
+  .testmoniols .testmoniol-container .testmoniol-caption .container {
+    width: 100%;
+  }
+  .testmoniols .testmoniol-container .testmoniol-caption .container h3 {
+    font-size: 24px;
+    margin-top: 15px;
+  }
+  .testmoniols .testmoniol-container .testmoniol-caption .container p {
+    font-size: 15px;
+  }
+  .testmoniols .testmoniol-container .testmoniol-caption .container button {
+    width: 130px;
+    height: 56px;
+    margin-left: 200px;
+  }
+  .testmoniols .testmoniol-container .testmoniol-caption .container button a {
+    font-size: 20px;
+  }
+  .testmoniols .testmoniol-container .testmoniol-img {
+    position: relative;
+    width: 50%;
+  }
+  .testmoniols .testmoniol-container .testmoniol-img img {
+    width: 100%;
+    height: 100%;
+  }
+  .testmoniols .testmoniol-container .testmoniol-img .background-img-color {
+    width: 55%;
+    height: 69%;
+    right: 0;
+    bottom: 0;
+  }
+}
+@media (max-width: 768px) {
+  .home {
+    display: flex;
+    justify-content: space-between;
+  }
+  .home .container {
+    width: 100% !important;
+  }
+  .home .container .home-caption {
+    width: 50%;
+  }
+  .home .container .home-caption h1 {
+    font-size: 40px;
+  }
+  .home .container .home-caption h4 {
+    font-size: 22px;
+  }
+  .home .container .home-caption p {
+    font-size: 16px;
+  }
+  .home .container .home-caption .home-buttons-container {
+    width: 100%;
+  }
+  .home .container .home-caption .home-buttons-container button {
+    width: 180px;
+    height: 56px;
+    margin-right: 10px;
+  }
+  .home .container .home-caption .home-buttons-container button a {
+    font-size: 16px;
+  }
+  .home .container .home-image {
+    width: 50%;
+  }
+  .home .container .home-image img {
+    width: 100%;
+  }
+  .top-courses {
+    height: auto;
+  }
+  .top-courses h4 {
+    font-size: 32px;
+  }
+  .top-courses .courses-container {
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  .top-courses .courses-container .card {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .top-courses .courses-container .card h2 {
+    text-align: center;
+    font-size: 25px;
+    font-weight: 500;
+  }
+  .top-courses .courses-container .card img {
+    height: auto;
+  }
+  .top-courses .courses-container .card p {
+    font-size: 16px;
+  }
+  .top-courses .courses-container .card p span {
+    bottom: -25px;
+  }
+  .top-courses .courses-container .card .icon img {
+    width: 42px;
+    height: 42px;
+  }
+  .top-courses .courses-container .card .icon h5 {
+    font-weight: 500;
+    font-size: 16px;
+  }
+  .education-section h4 {
+    margin: 20px 0;
+    font-weight: 500;
+    font-size: 30px;
+  }
+  .education-section .education-paragraph {
+    margin-bottom: 50px;
+  }
+  .education-section .education-paragraph img {
+    width: 200px;
+    height: 190px;
+  }
+  .education-section .education-paragraph p {
+    width: 58%;
+    font-size: 14px;
+  }
+  .education-section ul {
+    font-size: 16px;
+  }
+  .education-section ul li {
+    font-size: 14px;
+    padding: 8px 0;
+  }
+  .education-section h6 {
+    margin-top: 30px;
+    font-size: 16px;
+    font-weight: 500;
+  }
+  .testmoniols h4 {
+    font-size: 30px;
+  }
+  .testmoniols .testmoniol-container {
+    width: 100%;
+    margin-top: 50px;
+  }
+  .testmoniols .testmoniol-container .testmoniol-caption {
+    height: 220px;
+  }
+  .testmoniols .testmoniol-container .testmoniol-caption .container h3 {
+    font-size: 22px;
+    margin-top: 15px;
+  }
+  .testmoniols .testmoniol-container .testmoniol-caption .container p {
+    font-size: 13px;
+  }
+  .testmoniols .testmoniol-container .testmoniol-caption .container button {
+    width: 130px;
+    height: 56px;
+    margin-left: 100px;
+  }
+  .testmoniols .testmoniol-container .testmoniol-caption .container button a {
+    font-size: 18px;
+  }
+  .testmoniols .testmoniol-container .testmoniol-img {
+    width: 65%;
+  }
+  .testmoniols .testmoniol-container .testmoniol-img img {
+    width: 100%;
+    height: auto;
+  }
+}
+@media (max-width: 520px) {
+  .home {
+    display: flex;
+    justify-content: space-between;
+  }
+  .home .container {
+    width: 100% !important;
+  }
+  .home .container .home-caption {
+    width: 60%;
+  }
+  .home .container .home-caption h1 {
+    font-size: 36px;
+  }
+  .home .container .home-caption h4 {
+    font-size: 20px;
+  }
+  .home .container .home-caption p {
+    font-size: 14px;
+  }
+  .home .container .home-caption .home-buttons-container {
+    width: 100%;
+  }
+  .home .container .home-caption .home-buttons-container button {
+    width: 160px;
+    height: 46px;
+    margin-right: 10px;
+  }
+  .home .container .home-caption .home-buttons-container button a {
+    font-size: 14px;
+  }
+  .home .container .home-image {
+    width: 50%;
+  }
+  .home .container .home-image img {
+    width: 100%;
+  }
+  .top-courses {
+    height: auto;
+  }
+  .top-courses h4 {
+    font-size: 32px;
+  }
+  .top-courses .courses-container {
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  .top-courses .courses-container .card {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .top-courses .courses-container .card h2 {
+    text-align: center;
+    font-size: 25px;
+    font-weight: 500;
+  }
+  .top-courses .courses-container .card img {
+    height: auto;
+  }
+  .top-courses .courses-container .card p {
+    font-size: 16px;
+  }
+  .top-courses .courses-container .card p span {
+    bottom: -25px;
+  }
+  .top-courses .courses-container .card .icon img {
+    width: 42px;
+    height: 42px;
+  }
+  .top-courses .courses-container .card .icon h5 {
+    font-weight: 500;
+    font-size: 16px;
+  }
+  .education-section h4 {
+    margin: 20px 0;
+    font-weight: 500;
+    font-size: 28px;
+  }
+  .education-section .education-paragraph {
+    margin-bottom: 50px;
+    display: block;
+    text-align: center;
+  }
+  .education-section .education-paragraph img {
+    width: 50%;
+    height: 100%;
+    margin-left: 50%;
+    transform: translateX(-50%);
+  }
+  .education-section .education-paragraph p {
+    margin: 10px auto;
+    width: 70%;
+    font-size: 14px;
+  }
+  .education-section ul {
+    font-size: 16px;
+    font-weight: 500;
+  }
+  .education-section ul li {
+    font-size: 14px;
+    padding: 8px 0;
+  }
+  .education-section h6 {
+    margin-top: 30px;
+    font-size: 16px;
+    font-weight: 500;
+  }
+  .testmoniols h4 {
+    font-size: 30px;
+  }
+  .testmoniols .testmoniol-container {
+    width: 100%;
+    margin-top: 50px;
+    display: block;
+  }
+  .testmoniols .testmoniol-container .testmoniol-caption {
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+  }
+  .testmoniols .testmoniol-container .testmoniol-caption .container {
+    padding: 20px;
+  }
+  .testmoniols .testmoniol-container .testmoniol-caption .container h3 {
+    font-size: 22px;
+    margin-top: 15px;
+  }
+  .testmoniols .testmoniol-container .testmoniol-caption .container p {
+    font-size: 13px;
+  }
+  .testmoniols .testmoniol-container .testmoniol-caption .container button {
+    width: 120px;
+    height: 46px;
+    margin-left: auto;
+  }
+  .testmoniols .testmoniol-container .testmoniol-caption .container button a {
+    font-size: 16px;
+  }
+  .testmoniols .testmoniol-container .testmoniol-img {
+    width: 70%;
+  }
+  .testmoniols .testmoniol-container .testmoniol-img img {
+    width: 100%;
+    height: auto;
+  }
+}/*# sourceMappingURL=Home.css.map */

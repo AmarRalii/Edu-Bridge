@@ -1,0 +1,140 @@
+@import '../../helpers/_Style';
+
+
+.slider-container{
+    text-align: center;
+    height: 45vh;
+    overflow: hidden;
+    .testmoniols-container{
+        width: 80% !important;
+        height: 200px !important;
+        background-color: $thired-color;
+        border-radius: 40px 25px;
+        position: relative;
+        margin-top: 50px;
+        img{
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+            top: -35px;
+            width: 62px;
+            height: 62px;
+        }
+        h3{
+            margin-top: 35px;
+            font: {
+                family: "Poppins", system-ui;
+                weight:500;
+                size:20px;
+            }
+            color: #232323;
+        }
+        h5{
+            font: {
+                family: "Poppins", system-ui;
+                weight:400;
+                size:18px;
+            }
+            color: #232323;
+        }
+        p{
+            font: {
+                family: "Poppins", system-ui;
+                weight:400;
+                size:16px;
+            }
+            color: #232323;
+        }
+    }
+}
+
+@media (max-width:992px){
+    .slider-container{
+        height: auto;
+        .testmoniols-container{
+            width: 80% !important;
+            height: 200px !important;
+            
+            img{
+                top: -25px;
+                width: 52px;
+                height: 52px;
+            }
+            h3{
+                margin-top: 35px;
+                font: {
+                    size:18px;
+                }
+            }
+            h5{
+                font: {
+                    size:16px;
+                }
+            }
+            p{
+                font: {
+                    size:13px;
+                }
+            }
+        }
+    }
+}
+@media (max-width:768px){
+    .slider-container{
+        height: auto;
+        .testmoniols-container{
+            width: 80% !important;
+            img{
+                top: -25px;
+                width: 52px;
+                height: 52px;
+            }
+            h3{
+                margin-top: 35px;
+                font: {
+                    size:18px;
+                }
+            }
+            h5{
+                font: {
+                    size:16px;
+                }
+            }
+            p{
+                font: {
+                    size:13px;
+                }
+            }
+        }
+    }
+}
+@media (max-width:550px){
+    .slider-container{
+        height: auto;
+        .testmoniols-container{
+            width: 90% !important;
+            height: auto !important;
+            img{
+                top: -25px;
+                width: 52px;
+                height: 52px;
+            }
+            h3{
+                margin-top: 35px;
+                font: {
+                    size:16px;
+                }
+            }
+            h5{
+                font: {
+                    size:14px;
+                }
+            }
+            p{
+                font: {
+                    size:11px;
+                }
+            }
+        }
+    }
+}
