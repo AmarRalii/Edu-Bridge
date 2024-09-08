@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/Edu-Bridge/static/css/main.183506c2.css",
+    "main.js": "/Edu-Bridge/static/js/main.4339f199.js",
+    "static/js/453.c6944db6.chunk.js": "/Edu-Bridge/static/js/453.c6944db6.chunk.js",
+    "static/media/fa-solid-900.ttf": "/Edu-Bridge/static/media/fa-solid-900.07ed6d5fa32c1d54af0f.ttf",
+    "static/media/fa-brands-400.ttf": "/Edu-Bridge/static/media/fa-brands-400.0ff70dcbf135d859ebf3.ttf",
+    "static/media/Agencia de Marketing Digital Quito Ecuador Nativos Digitales 1️⃣ (1) 1.png": "/Edu-Bridge/static/media/Agencia de Marketing Digital Quito Ecuador Nativos Digitales 1️⃣ (1) 1.665ce18b8ee763bc0ff2.png",
+    "static/media/Group 467.png": "/Edu-Bridge/static/media/Group 467.44b1409b8ce33fa1b6ad.png",
+    "static/media/Rectangle 69.png": "/Edu-Bridge/static/media/Rectangle 69.f95e37721bc96bd780a8.png",
+    "static/media/fa-solid-900.woff2": "/Edu-Bridge/static/media/fa-solid-900.93f719f4d62bfa3e748c.woff2",
+    "static/media/Group 464.png": "/Edu-Bridge/static/media/Group 464.06ac20dbc8a5f5cd4da0.png",
+    "static/media/education.png": "/Edu-Bridge/static/media/education.c2c0f1bf8b1c6b05999b.png",
+    "static/media/fa-brands-400.woff2": "/Edu-Bridge/static/media/fa-brands-400.bb8d5a145e22822103fb.woff2",
+    "static/media/Student2.png": "/Edu-Bridge/static/media/Student2.9d2bc8c2fba839abef51.png",
+    "static/media/fa-regular-400.ttf": "/Edu-Bridge/static/media/fa-regular-400.17a6e1aebccdbaa39e78.ttf",
+    "static/media/amico.png": "/Edu-Bridge/static/media/amico.814b159004e11f2ef381.png",
+    "static/media/fa-regular-400.woff2": "/Edu-Bridge/static/media/fa-regular-400.bc3722686635b5f86132.woff2",
+    "static/media/student1.png": "/Edu-Bridge/static/media/student1.9aa31e5bc040f78b84b0.png",
+    "static/media/fa-v4compatibility.ttf": "/Edu-Bridge/static/media/fa-v4compatibility.0f6cb412603527bda691.ttf",
+    "static/media/Ellipse 10.png": "/Edu-Bridge/static/media/Ellipse 10.ca89ab6e96cc27b71ef9.png",
+    "static/media/Ellipse 12.png": "/Edu-Bridge/static/media/Ellipse 12.f87791ce700816f42b4e.png",
+    "static/media/fa-v4compatibility.woff2": "/Edu-Bridge/static/media/fa-v4compatibility.6cfec8414be20e2c3426.woff2",
+    "index.html": "/Edu-Bridge/index.html",
+    "main.183506c2.css.map": "/Edu-Bridge/static/css/main.183506c2.css.map",
+    "main.4339f199.js.map": "/Edu-Bridge/static/js/main.4339f199.js.map",
+    "453.c6944db6.chunk.js.map": "/Edu-Bridge/static/js/453.c6944db6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.183506c2.css",
+    "static/js/main.4339f199.js"
+  ]
+}
