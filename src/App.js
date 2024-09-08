@@ -22,6 +22,7 @@ export default function App() {
       path:'/',element:<Layout></Layout>,
       children:[
         {index:true,element:<Home/>},
+        {path:'Edu-Bridge',element:<Home/>},
         {path:'about',element:<About/>},
         {path:'login',element:<Login/>},
         {path:'signup',element:<SignUp/>},
