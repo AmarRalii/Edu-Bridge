@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Edu-Bridge/static/css/main.183506c2.css",
-    "main.js": "/Edu-Bridge/static/js/main.3288de8e.js",
+    "main.css": "/Edu-Bridge/static/css/main.4aab0e9c.css",
+    "main.js": "/Edu-Bridge/static/js/main.f06222b9.js",
     "static/js/453.c6944db6.chunk.js": "/Edu-Bridge/static/js/453.c6944db6.chunk.js",
     "static/media/fa-solid-900.ttf": "/Edu-Bridge/static/media/fa-solid-900.07ed6d5fa32c1d54af0f.ttf",
     "static/media/fa-brands-400.ttf": "/Edu-Bridge/static/media/fa-brands-400.0ff70dcbf135d859ebf3.ttf",
@@ -14,6 +14,7 @@
     "static/media/fa-brands-400.woff2": "/Edu-Bridge/static/media/fa-brands-400.bb8d5a145e22822103fb.woff2",
     "static/media/Student2.png": "/Edu-Bridge/static/media/Student2.9d2bc8c2fba839abef51.png",
     "static/media/fa-regular-400.ttf": "/Edu-Bridge/static/media/fa-regular-400.17a6e1aebccdbaa39e78.ttf",
+    "static/media/Course.png": "/Edu-Bridge/static/media/Course.0c36f8f9ad82620f16b3.png",
     "static/media/amico.png": "/Edu-Bridge/static/media/amico.814b159004e11f2ef381.png",
     "static/media/fa-regular-400.woff2": "/Edu-Bridge/static/media/fa-regular-400.bc3722686635b5f86132.woff2",
     "static/media/student1.png": "/Edu-Bridge/static/media/student1.9aa31e5bc040f78b84b0.png",
@@ -22,12 +23,12 @@
     "static/media/Ellipse 12.png": "/Edu-Bridge/static/media/Ellipse 12.f87791ce700816f42b4e.png",
     "static/media/fa-v4compatibility.woff2": "/Edu-Bridge/static/media/fa-v4compatibility.6cfec8414be20e2c3426.woff2",
     "index.html": "/Edu-Bridge/index.html",
-    "main.183506c2.css.map": "/Edu-Bridge/static/css/main.183506c2.css.map",
-    "main.3288de8e.js.map": "/Edu-Bridge/static/js/main.3288de8e.js.map",
+    "main.4aab0e9c.css.map": "/Edu-Bridge/static/css/main.4aab0e9c.css.map",
+    "main.f06222b9.js.map": "/Edu-Bridge/static/js/main.f06222b9.js.map",
     "453.c6944db6.chunk.js.map": "/Edu-Bridge/static/js/453.c6944db6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.183506c2.css",
-    "static/js/main.3288de8e.js"
+    "static/css/main.4aab0e9c.css",
+    "static/js/main.f06222b9.js"
   ]
 }
