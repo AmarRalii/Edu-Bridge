@@ -7,16 +7,17 @@ import login3 from "../../assets/geo_turf-point-grid.png";
 import { Link, useNavigate } from "react-router-dom";
 import z from "zod";
 import { zodResolver } from "@hookform/resolvers/zod";
+import axios from "axios";
 
 export default function SignUp() {
   let navigate = useNavigate();
   const loginSchema = z.object({
-    First_name: z
+    firstName: z
       .string()
       .min(3, "not valid Name Less than 3 chart")
       .max(10, "not valid Name more than 10 chart")
       ,
-    Last_name: z
+      lastName: z
       .string()
       .min(3, "not valid Name Less than 3 chart")
       .max(10, "not valid Name more than 10 chart")
@@ -27,6 +28,7 @@ export default function SignUp() {
       .max(25, "not valid  E-mail")
       .email({ message: "not valid email" }),
     password: z.string().min(3, "not valid Password").max(25, "not valid Password"),
+    role: z.string(),
   });
 
   const { handleSubmit, register, formState:{errors,isSubmitting,} ,reset} = useForm({
@@ -34,10 +36,25 @@ export default function SignUp() {
     resolver: zodResolver(loginSchema),
   });
 
-  function getdata(data) {
+  async function getdata(data) {
+    try{
+      let { data1 } = await axios.post(
+        `http://localhost:5000/api/v1/signup`,
+        data
+      );
+      if (data1.message === "success") {
+        navigate("/login");
+      }
+    }
+    catch(error){
+      console.log('there is somthing wrong');
+      
+      
+    }
     console.log(data);
     reset()
     navigate('/login')
+    localStorage.setItem('name',data.firstName)
   }
 
   return (
@@ -75,21 +92,21 @@ export default function SignUp() {
                   <i className="fa-brands fa-apple"></i>
                 </a>
               </div>
-              <input type="text" className="" placeholder="First Name" {...register("First_name")} />
+
+              <input type="text" className="" placeholder="First Name" {...register("firstName")} />
               {errors.First_name && <span >{errors.First_name.message}</span> }
 
-              <input type="text" className="" placeholder="Last Name" {...register("Last_name")} />
+              <input type="text" className="" placeholder="Last Name" {...register("lastName")} />
               {errors.Last_name && <span >{errors.Last_name.message}</span> }
               
               <input type="text" placeholder="E-mail" {...register("email")} />
               {errors.email && <span >{errors.email.message}</span> }
             
-              <input
-                type="text"
-                placeholder="Password"
-                {...register("password")}
-              />
+              <input type="text" placeholder="Password" {...register("password")} />
               {errors.password && <span >{errors.password.message}</span> }
+
+              <input type="text" placeholder="Role" {...register("role")} />
+              {errors.role && <span >{errors.role.message}</span> }
 
               <button type="submit">Sign Up</button>
             </form>

@@ -14,8 +14,10 @@
         .row{
             border-radius: 30px;
             height: auto;
+            display: flex;
+            justify-content: center;
             .col-md-5{
-                width: 41%;
+                width: 35%;
                 border-radius: 30px 0px 0px 30px;
                 background-color: $login-color;
                 img{
@@ -88,16 +90,16 @@
                 }
             }
             .col-md-7{
-                width: 59%;
+                width: 50%;
                 background-color: #ffffff;
                 display: flex;
                 justify-content: center;
                 align-items: center;
                 form{
-                    width: 80%;
+                    width: 70%;
                     height: 70%;
                     .form-caption{
-                        width: 70%;
+                        width: auto;
                         height: 15%;
                         margin: 0px auto;
                         text-align: center;
@@ -105,7 +107,7 @@
                         h2{
                             color: $main-color;
                             font: {
-                                size: 45px ;
+                                size: 40px ;
                                 width: 700;
                             }
                             line-height: 54.46px;
@@ -113,15 +115,15 @@
                         h3{
                             color: #434E58;
                             font: {
-                                size: 35px ;
+                                size: 30px ;
                                 width: 500;
                             }
                             line-height: 42.36px;
                         }
                     }
                     .social-links{
-                        width: 40%;
-                        height: 7%;
+                        width: 37%;
+                        height: auto;
                         margin: 40px auto;
                         display: flex;
                         justify-content: space-between;
@@ -135,7 +137,7 @@
                     input{
                         width: 100%;
                         margin-bottom: 20px;
-                        padding: 10px;
+                        padding: 7px;
                         border-radius: 10px;
                         border: 2px solid $light-color;
                     }

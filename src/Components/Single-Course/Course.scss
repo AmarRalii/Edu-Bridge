@@ -1,0 +1,41 @@
+@import '../../helpers/Style';
+
+.card2{
+    background-color: #EC9A52 !important;
+    position: relative;
+    .icon{
+        background-color: #FFFFFF;
+        position: absolute;
+        top: 5%;
+        right: 5%;
+        border-radius: 50%;
+        width: 8%;
+        height: 8%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+        i{
+            font-size: 14px;
+        }
+    }
+    img{
+        width: 95%;
+        margin: 10px auto;
+    }
+    .card-body{
+        font-family: "Poppins", sans-serif;
+        p{
+            font-size: 15px;
+            font-weight: 500;
+        }
+        h5{
+            font-size: 18px;
+            font-weight: 500;
+            img{
+                width: 30px;
+                margin: 0;
+            }
+        }
+    }
+}

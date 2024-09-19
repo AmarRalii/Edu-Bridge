@@ -3,17 +3,18 @@ import { Link } from "react-router-dom";
 import logo from "../../assets/OBJECTS.png";
 import "./Navbar.css";
 export default function Navbar() {
+  
   return (
     <div className="">
       <nav className="navbar navbar-expand-lg ">
         <div className="container">
-          <a className="navbar-brand" href="#">
+          <Link className="navbar-brand" to={'./'}>
             <img src={logo} alt="" />
             <p>
               EduBridge
               <span>Empower your Future</span>
             </p>
-          </a>
+          </Link>
           <button
             className="navbar-toggler"
             type="button"
@@ -33,20 +34,11 @@ export default function Navbar() {
                 </Link>
               </li>
               <li className="nav-item">
-                <Link to={"/Courses"} className="nav-link ">
-                  Courses
+                <Link to={"/dashboard"} className="nav-link ">
+                  Dashbourd
                 </Link>
               </li>
-              <li className="nav-item">
-                <Link to={"/Wishlist"} className="nav-link ">
-                  Wishlist
-                </Link>
-              </li>
-              <li className="nav-item">
-                <Link to={"/Cart"} className="nav-link ">
-                  Cart
-                </Link>
-              </li>
+              
             </ul>
             <div className="buttons-container">
               <button><Link to={'/login'}>Login</Link></button>

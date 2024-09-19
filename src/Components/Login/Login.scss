@@ -5,13 +5,18 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: #fff;
   .container {
     border-radius: 30px;
+    height: auto;
+    margin: 50px 0;
     .row {
       border-radius: 30px;
       height: auto;
+      display: flex;
+      justify-content: center;
       .col-md-5 {
-        width: 41%;
+        width: 35%;
         border-radius: 30px 0px 0px 30px;
         background-color: $login-color;
         img {
@@ -20,7 +25,7 @@
           margin: 4%;
         }
         .welcome-caption {
-          width: 84%;
+          width: auto;
           height: 13%;
           color: #fff;
           text-align: center;
@@ -37,12 +42,12 @@
           h2 {
             font: {
               weight: 700;
-              size: 50px;
+              size: 40px;
               line-height: 60.51px;
             }
           }
           img {
-            width: 219.78px;
+            width: 200.78px;
             height: 175.92px;
             position: absolute;
             right: -24%;
@@ -65,7 +70,7 @@
           transition: all 0.4s;
           margin-left: 50%;
           transform: translateX(-50%);
-          margin-bottom: 15%;
+          margin-bottom: 5%;
           a {
             color: $main-color;
             text-decoration: none;
@@ -83,7 +88,7 @@
         }
       }
       .col-md-7 {
-        width: 59%;
+        width: 50%;
         background-color: #ffffff;
         display: flex;
         justify-content: center;
@@ -92,7 +97,7 @@
           width: 80%;
           height: 70%;
           .form-caption {
-            width: 70%;
+            width: auto;
             height: 15%;
             margin: 0px auto;
             text-align: center;
@@ -100,7 +105,7 @@
             h2 {
               color: $main-color;
               font: {
-                size: 45px;
+                size: 40px;
                 weight: 700;
               }
               line-height: 54.46px;
@@ -108,7 +113,7 @@
             h3 {
               color: #434e58;
               font: {
-                size: 35px;
+                size: 30px;
                 weight: 500;
               }
               line-height: 42.36px;
@@ -116,7 +121,7 @@
           }
           .social-links {
             width: 40%;
-            height: 7%;
+            height:auto;
             margin: 40px auto;
             display: flex;
             justify-content: space-between;
@@ -142,6 +147,8 @@
             color: $main-color;
             text-decoration: none;
             display: block;
+            
+            
           }
           button {
             width: 100%;

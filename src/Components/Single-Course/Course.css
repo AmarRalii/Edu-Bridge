@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Calistoga&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Baloo+2:wght@400..800&family=Calistoga&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Baloo+2:wght@400..800&family=Calistoga&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+.card2 {
+  background-color: #EC9A52 !important;
+  position: relative;
+}
+.card2 .icon {
+  background-color: #FFFFFF;
+  position: absolute;
+  top: 5%;
+  right: 5%;
+  border-radius: 50%;
+  width: 8%;
+  height: 8%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.card2 .icon i {
+  font-size: 14px;
+}
+.card2 img {
+  width: 95%;
+  margin: 10px auto;
+}
+.card2 .card-body {
+  font-family: "Poppins", sans-serif;
+}
+.card2 .card-body p {
+  font-size: 15px;
+  font-weight: 500;
+}
+.card2 .card-body h5 {
+  font-size: 18px;
+  font-weight: 500;
+}
+.card2 .card-body h5 img {
+  width: 30px;
+  margin: 0;
+}/*# sourceMappingURL=Course.css.map */

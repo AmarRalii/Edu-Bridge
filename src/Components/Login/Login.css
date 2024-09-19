@@ -2,21 +2,27 @@
 @import url("https://fonts.googleapis.com/css2?family=Baloo+2:wght@400..800&family=Calistoga&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Baloo+2:wght@400..800&family=Calistoga&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 .login {
   height: auto;
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: #fff;
 }
 .login .container {
   border-radius: 30px;
+  height: auto;
+  margin: 50px 0;
 }
 .login .container .row {
   border-radius: 30px;
   height: auto;
+  display: flex;
+  justify-content: center;
 }
 .login .container .row .col-md-5 {
-  width: 41%;
+  width: 35%;
   border-radius: 30px 0px 0px 30px;
   background-color: #E67E22;
 }
@@ -26,7 +32,7 @@
   margin: 4%;
 }
 .login .container .row .col-md-5 .welcome-caption {
-  width: 84%;
+  width: auto;
   height: 13%;
   color: #fff;
   text-align: center;
@@ -41,11 +47,11 @@
 }
 .login .container .row .col-md-5 .welcome-caption h2 {
   font-weight: 700;
-  font-size: 50px;
+  font-size: 40px;
   font-line-height: 60.51px;
 }
 .login .container .row .col-md-5 .welcome-caption img {
-  width: 219.78px;
+  width: 200.78px;
   height: 175.92px;
   position: absolute;
   right: -24%;
@@ -67,7 +73,7 @@
   transition: all 0.4s;
   margin-left: 50%;
   transform: translateX(-50%);
-  margin-bottom: 15%;
+  margin-bottom: 5%;
 }
 .login .container .row .col-md-5 button a {
   color: #E56031;
@@ -83,7 +89,7 @@
   color: #ffffff;
 }
 .login .container .row .col-md-7 {
-  width: 59%;
+  width: 50%;
   background-color: #ffffff;
   display: flex;
   justify-content: center;
@@ -94,7 +100,7 @@
   height: 70%;
 }
 .login .container .row .col-md-7 form .form-caption {
-  width: 70%;
+  width: auto;
   height: 15%;
   margin: 0px auto;
   text-align: center;
@@ -102,19 +108,19 @@
 }
 .login .container .row .col-md-7 form .form-caption h2 {
   color: #E56031;
-  font-size: 45px;
+  font-size: 40px;
   font-weight: 700;
   line-height: 54.46px;
 }
 .login .container .row .col-md-7 form .form-caption h3 {
   color: #434e58;
-  font-size: 35px;
+  font-size: 30px;
   font-weight: 500;
   line-height: 42.36px;
 }
 .login .container .row .col-md-7 form .social-links {
   width: 40%;
-  height: 7%;
+  height: auto;
   margin: 40px auto;
   display: flex;
   justify-content: space-between;

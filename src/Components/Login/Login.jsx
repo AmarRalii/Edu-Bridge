@@ -7,6 +7,7 @@ import login3 from "../../assets/geo_turf-point-grid.png";
 import { Link, useNavigate } from "react-router-dom";
 import z from "zod";
 import { zodResolver } from "@hookform/resolvers/zod";
+import axios from "axios";
 
 export default function Login() {
   let navigate = useNavigate();
@@ -16,19 +17,37 @@ export default function Login() {
       .min(3, "not valid  E-mail")
       .max(25, "not valid  E-mail")
       .email({ message: "not valid email" }),
-    password: z.string().min(3, "not valid Password").max(25, "not valid Password"),
+    password: z
+      .string()
+      .min(3, "not valid Password")
+      .max(25, "not valid Password"),
+    role:z.string()
   });
 
-  const { handleSubmit, register, formState:{errors,isSubmitting,} ,reset} = useForm({
+  const {
+    handleSubmit,
+    register,
+    formState: { errors, isSubmitting },
+    reset,
+  } = useForm({
     mode: "onchange",
     resolver: zodResolver(loginSchema),
   });
 
-  function getdata(data) {
-    console.log(data);
-    reset()
-    navigate('/')
-    
+  async function getdata(data) {
+    try{
+      let { data1 } = await axios.post(`http://localhost:5000/api/v1/login`,data);
+      if(data1.jwt!= null){
+
+        navigate("/dashboard");
+        localStorage.setItem('token',data1.jwt)
+        reset()
+        console.log(data);
+      }
+      }
+      catch(error){
+        console.log('there is somthing wrong');
+    }
   }
 
   return (
@@ -67,14 +86,13 @@ export default function Login() {
                 </a>
               </div>
               <input type="text" placeholder="E-mail" {...register("email")} />
-              {errors.email && <span className="">{errors.email.message}</span> }
+              {errors.email && <span >{errors.email.message}</span> }
             
-              <input
-                type="text"
-                placeholder="Password"
-                {...register("password")}
-              />
-              {errors.password && <span className="">{errors.password.message}</span> }
+              <input type="text" placeholder="Password" {...register("password")} />
+              {errors.password && <span >{errors.password.message}</span> }
+
+              <input type="text" placeholder="Role" {...register("role")} />
+              {errors.role && <span >{errors.role.message}</span> }
 
               <Link className="w-100 ">Forget Password ?</Link>
               <button type="submit">Log in</button>
