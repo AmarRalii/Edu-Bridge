@@ -7,9 +7,7 @@ export default function Courses() {
     <div>
       <div className="dash-nav">
         <h5>ONLINE COURSE</h5>
-        <h3>Sharpen Your Skills With Professional Online Courses</h3>
-        <button>Join Now</button>
-        
+        <h3> <p>Sharpen Your Skills With Professional Online Courses</p> <button>Join Now</button></h3>
       </div>
       <h2>All Courses</h2>
       <div className="row  gy-4 ">

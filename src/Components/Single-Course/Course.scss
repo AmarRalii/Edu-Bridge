@@ -3,6 +3,7 @@
 .card2{
     background-color: #EC9A52 !important;
     position: relative;
+    height: 250px;
     .icon{
         background-color: #FFFFFF;
         position: absolute;
@@ -16,7 +17,7 @@
         align-items: center;
         cursor: pointer;
         i{
-            font-size: 14px;
+            font-size: 13px;
         }
     }
     img{
@@ -26,14 +27,14 @@
     .card-body{
         font-family: "Poppins", sans-serif;
         p{
-            font-size: 15px;
+            font-size: 13px;
             font-weight: 500;
         }
         h5{
-            font-size: 18px;
+            font-size: 15px;
             font-weight: 500;
             img{
-                width: 30px;
+                width: 20px;
                 margin: 0;
             }
         }

@@ -12,14 +12,14 @@
   align-items: center;
 }
 .navbar .container .navbar-brand img {
-  width: 107.51px;
-  height: 88.15px;
+  width: 90.51px;
+  height: 78.15px;
 }
 .navbar .container .navbar-brand p {
   font-family: "Calistoga", serif;
   font-size: 24px;
   font-weight: 600;
-  line-height: 31.2px;
+  line-height: 21.2px;
   color: #043730;
   position: relative;
 }
@@ -46,8 +46,8 @@
   justify-content: space-around;
 }
 .navbar .container .navbar-collapse .buttons-container button {
-  width: 110px;
-  height: 46px;
+  width: 100px;
+  height: 36px;
   border-radius: 25px 10px;
   border: 3px solid #E56031;
   background-color: transparent;
@@ -56,7 +56,7 @@
 .navbar .container .navbar-collapse .buttons-container button a {
   color: #E56031;
   text-decoration: none;
-  font-size: 26px;
+  font-size: 20px;
   transition: all 0.4s;
 }
 .navbar .container .navbar-collapse .buttons-container button:hover {

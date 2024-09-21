@@ -1,0 +1,75 @@
+@import "../../helpers/_Style";
+
+.category {
+  .row {
+    display: flex;
+    justify-content: space-between;
+    .col-md-8 {
+      border: 2px solid $main-color;
+      border-radius: 25px 10px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      .active {
+        background-color: $main-color !important;
+        color: #232323A6 !important;
+      }
+      a {
+        padding: 5px 10px;
+        border-radius: 25px;
+        color: #232323A6;
+        text-decoration: none;
+        font-weight: 500;
+      }
+    }
+    .col-md-3 {
+      border: 2px solid $main-color;
+      border-radius: 25px 10px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      overflow: hidden;
+      input {
+        border: none;
+        width: 80%;
+        &:focus,
+        &:hover {
+          outline: none;
+          border-color: rgb(255, 255, 255);
+          background-color: transparent;
+          box-shadow: 0 0 0 4px rgb(255, 255, 255);
+        }
+      }
+    }
+  }
+}
+
+.design{
+    border: 2px solid $main-color;
+    border-radius: 25px 10px;
+    overflow: hidden;
+    .col-md-10{
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      
+      .active{
+        border-bottom: 1px solid $main-color;
+        color: $main-color !important;
+      }
+      a{
+        text-decoration: none;
+        color: #232323A6 !important;
+      }
+    }
+    .col-md-12{
+
+    }
+  }
+  p{
+    font-size: 24px;
+    font-weight: 500;
+    color: #232323;
+    padding: 20px 0px;
+  }
